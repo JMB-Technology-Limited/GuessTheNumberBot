@@ -14,9 +14,9 @@ while found == False:
 	guess = int(input('Take a guess: '))
 
 	if guess < theNumber:
-		print "To Low!"
+		print "Too Low!"
 	elif guess > theNumber:
-		print "To High!"
+		print "Too High!"
 	else:
 		print 'Well Done, you guessed it in ' + str(attempts) + ' attempts'
 		found = True

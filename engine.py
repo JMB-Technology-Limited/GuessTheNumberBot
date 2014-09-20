@@ -21,10 +21,10 @@ while found == False:
 		print "Well done!"
 		found = True
 	elif theGuess < theNumber:
-		print "To Low!"
+		print "Too Low!"
 		guesses.append([theGuess ,-1])
 	elif theGuess > theNumber:
-		print "To High!"
+		print "Too High!"
 		guesses.append([theGuess , 1])
 	time.sleep(1)
 
