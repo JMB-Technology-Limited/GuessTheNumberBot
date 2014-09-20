@@ -11,7 +11,7 @@ How do we know this bot is working?
 
 Run
 
-    python testBot.py
+    python test.py
 
 See results!
 
