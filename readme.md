@@ -1,6 +1,12 @@
 Guess The Number Bot
 ====================
 
+Run
+
+   python game.py
+
+Play the game! But can we get the computer to play the game for us?
+
 Run 
 
     python engine.py
